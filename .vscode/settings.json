@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch Student Management System",
+            "mainClass": "StudentManagementSystem",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "classPaths": [
+                "${workspaceFolder}/lib/mysql-connector-j-9.2.0.jar",
+                "${workspaceFolder}/bin"  // Add this if necessary
+            ]
+        }
+    ]
+}
